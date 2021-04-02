@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Estelle Tourillon`,
-    description: `Fullstack junior`,
+    title: `UBI-Quiz`,
+    description: `Quel ubi "dreamers" est tu ?`,
     author: `@gatsbyjs`,
   },
   plugins: [
