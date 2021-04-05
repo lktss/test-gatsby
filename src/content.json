@@ -1,0 +1,177 @@
+{
+    "references" : [
+        {"Quentin" :  ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A"], 
+        "Damien" :    ["B", "B", "B", "A", "B", "B", "B", "B", "A", "B", "B", "B", "A", "B", "B", "A", "A", "A", "B"],
+        "Ahmed" :     ["A", "B", "C", "B", "B", "A", "A", "B", "B", "C", "C", "C", "A", "A", "A", "B", "B", "A", "A"],
+        "RomainP" :   ["B", "B", "B", "C", "A", "B", "A", "B", "A", "B", "B", "B", "A", "A", "B", "C", "B", "A", "A"],
+        "RomainM" :   ["B", "A", "A", "A", "A", "C", "A", "A", "B", "B", "C", "B", "A", "C", "A", "A", "B", "B", "C"],
+        "Thea" :      ["B", "C", "D", "D", "C", "D", "B", "C", "B", "D", "C", "C", "A", "C", "A", "C", "B", "B", "B"],
+        "Manon" :     ["A", "C", "C", "D", "C", "D", "B", "B", "A", "C", "C", "B", "A", "A", "A", "C", "C", "C", "C"],
+        "Clement" :   ["B", "C", "D", "C", "C", "D", "B", "C", "C", "D", "C", "B", "A", "C", "A", "C", "A", "A", "A"],
+        "Stagiaire" : ["C", "D", "D", "C", "D", "A", "B", "C", "C", "A", "D", "A", "B", "D", "C", "D", "C", "C", "D"]}
+    ],
+    "questions" : [
+        {
+            "question" : "A quel élément est associé ton signe astrologique ?",
+            "reponses" : [
+                {"A" : "Feu"},
+                {"B" : "Air"}, 
+                {"C" : "On s'en fout"}
+            ]
+        },
+        {
+            "question" : "Si je te parle du RGPD ?", 
+            "reponses" : [
+                {"A" : "Ne m'en parle pas"},	
+                {"B" : "Connais pas"},
+                {"C" : "J'ai quelques notions"},
+                {"D" : "ça dépend"}
+            ]
+        },
+        {
+            "question" : "Chez Awa tu choisis ?", 
+            "reponses" : [
+                {"A" : "Rougail"},	
+                {"B" : "Couscous"},	
+                {"C" : "Tiep"},
+                {"D" : "Un truc qui change"}
+            ]
+        },
+        {
+            "question" : "Tu es plutôt ... ?",
+            "reponses" : [
+                {"A" : "Front"},	
+                {"B" : "back"},	
+                {"C" : "on sait toujours pas"},	
+                {"D" : "design"}
+            ]
+        },
+        {
+            "question" : "qu'est ce que tu bois ?",
+            "reponses" : [
+                {"A" : "ricard"},	
+                {"B" : "bière"}	,
+                {"C" : "mojito"},	
+                {"D" : "jäger"}
+            ]
+        },
+        {
+            "question": "ton niveau blind test ?",
+            "reponses" : [
+                {"A" : "bof"},	
+                {"B" : "10/10"},	
+                {"C" : "les truc de vieux c'est 10/10"},	
+                {"D" : "je suis en régie"}
+            ]
+        },
+        {
+            "question": "team bureau ou team openspace ?", 
+            "reponses": [
+                {"A" : "b"},	
+                {"B" : "op"}
+            ]	
+        }, 
+        {
+            "question": "Dis moi ce que tu manges et je te dirais qui tu es ...",
+            "reponses" : [
+                {"A" : "Chat"},	
+                {"B" : "Un bon burger frites"},	
+                {"C" : "Rien ne vaut le soja"}
+            ]
+        }, 
+        {
+            "question": "Qu'elle est ta tranche d'âge ?",
+            "reponses" : [
+                {"A" : "25-28 ans"},	
+                {"B" : "On ne compte plus au delà de 28"},	
+                {"C" : "On ne compte pas"}
+            ]
+        },
+        {
+            "question": "A quelle maison Harry Potter appartiens-tu ?",
+            "reponses" : [
+                {"A" : "Je n'ai pas reçu la lettre"},	
+                {"B" : "Gryffondor"},	
+                {"C" : "Serdaigle"},	
+                {"D" : "Poufsouffle"}
+            ]
+        },
+        {
+            "question": "Dans quelle voiture roules-tu ?",
+            "reponses" : [
+                {"A" : "Tesla"},	
+                {"B" : "Une voiture familiale"},	
+                {"C" : "Une citadine"},	
+                {"D" : "Pas de sous je dors sur place"}
+            ]
+        },
+        {
+            "question": "Est-tu censuré sur discord ?",
+            "reponses" : [
+                {"A" : "Oui"},	
+                {"B" : "Non"},	
+                {"C" : "Je censure les gens"}
+            ]
+        },
+        {
+            "question": "A quelle heure as tu faim ?",
+            "reponses" : [
+                {"A" : "11h30"},	
+                {"B" : "Avant d'arriver"}
+            ]
+        },
+        {
+            "question": "Tu commandes plutôt ?",
+            "reponses" : [
+                {"A" : "Awa"},	
+                {"B" : "Tacos"},	
+                {"C" : "Chez Gaspard"},	
+                {"D" : "Pas d'argent, je me fais à manger"}
+            ]
+        },
+        {
+            "question": "Plutôt Mac ou Windows ?",
+            "reponses" : [
+                {"A" : "Mac"},	
+                {"B" : "Windows"},	
+                {"C" : "Tant que ça lance Netflix..."}
+            ]
+        },
+        {
+            "question": "Team vaisselle ou team délit de fuite ?",
+            "reponses" : [
+                {"A" : "Vaisselle"},	
+                {"B" : "Je me suis fais avoir"},	
+                {"C" : "Délit de fuite"},	
+                {"D" : "Main d'oeuvre gratuite"}
+            ]
+        },
+        {
+            "question": "Max te propose de discuter autour d'un café...",
+            "reponses" : [
+                {"A" : "Jamais il ne me le propose"},	
+                {"B" : "Tu fuis"},	
+                {"C" : "Tu es naïf et tu dis oui, te voilà expert en com'"}
+            ]
+        },
+        {
+            "question": "Depuis combien de temps es-tu chez ubi ?",
+            "reponses" : [
+                {"A" : "2 ans et plus"},	
+                {"B" : "Une éternité"},	
+                {"C" : "J'ai juste vu de la lumière et je suis entré"}
+            ]
+        },
+        {
+            "question": "On a du budget tu achètes ?",
+            "reponses" : [
+                {"A" : "Casque"},	
+                {"B" : "Un micro onde"},	
+                {"C" : "Une cafetière"},	
+                {"D" : "Je propose de voler le matos à Systel pour faire des économies"}
+            ]
+        }
+
+    ]
+    
+} 		 		
