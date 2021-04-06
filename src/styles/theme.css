@@ -1,2 +1,26 @@
+@import '~aos/dist/aos.css';
 
+body {
+    font-family: "Raleway";
+}
 
+.layout{
+    height: 100vh;
+}
+
+footer, header {
+    height: 10%;
+}
+
+main{
+    height: 80%;
+}
+
+.row{
+    margin: 0;
+}
+
+.title a{
+    text-decoration: none;
+    color: black
+}
