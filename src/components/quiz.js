@@ -1,63 +1,40 @@
 import React, { useState} from "react";
-import PropTypes from "prop-types"
+//import PropTypes from "prop-types";
+import jsonData from "../content.json"
 
-import {Row, Col, Container, Form, Button} from 'react-bootstrap';
+import Question from "./question.js"
+import Reponses from "./reponse.js"
+import Resultat from "./resultat.js"
+
+import {Row} from 'react-bootstrap';
 
 const Quiz = () => {
-    const arrayQuestion = [
-        'Quel élément est associé à ton signe astrologique ?',
-        'Si je te parle du RGPD ... ?',
-        'Chez Awa tu choisis ?'
-      ]
-
-      /* const arrayReponses = {
-        0 : ['Feu', 'Air', 'On s’en fout'],
-        1 : ['Ne m’en parle pas', 'Connais pas', 'J’ai quelques notions', 'ça dépend, ça me concerne ?'],
-        2 : ['Rougail', 'Couscous', 'Tiep', 'Un truc qui change']
-      } */
-
-    const arrayReponses = {
-        0 : [{'A' : 'Feu'}, {'B' : 'Air'}, {'C' : 'On s’en fout'}],
-        1 : [{'A' : 'Ne m’en parle pas'}, {'B' : 'Connais pas}'}, {'C' : 'J’ai quelques notions'}, {'D' : 'ça dépend, ça me concerne ?'}],
-        2 : [{'A': 'Rougail'}, {'B': 'Couscous'}, {'C': 'Tiep'}, {'D': 'Un truc qui change'}]
-    }
-
+    const arrayQuestion = jsonData.questions;
     const [compteurQt, setcompteurQt] = useState(0);
+    const [history, setHistory] = useState([]);
+    
 
-    const question = arrayQuestion[compteurQt]
-
-
-    function handleSubmit() {
+    function handleSubmit(event) {
         setcompteurQt(compteurQt + 1);
-
-
+        setHistory(history.concat(event.target.value));
+        console.log(history);
     }
 
-    return(
-        <Row>
-            <Col className="questions">
-                <Container>
-                    {/* barre de progression */}
-                    <div></div>
-                    {/* Questions */}
-                    <div>
-                        <Question data={question} />
-                    </div>
-                </Container>
-            </Col>
-            <Col className="reponses">
-                <Container>
-                    {/* Réponses */}
-                    <Reponses data={arrayReponses[compteurQt]} />
-                    {/* Valider */}
-                    <Button 
-                        variant="primary"
-                        onClick={handleSubmit}
-                    >   Question suivante</Button>
-                </Container>
-            </Col>
-        </Row>
-    )
+    if(compteurQt === arrayQuestion.length){
+        alert('fin')
+        return(
+            <Row className="align-items-center h-100">
+                <Resultat data={history}/>
+            </Row>
+        )
+    }else{
+        return(
+            <Row className="align-items-center h-100">
+                <Question data={arrayQuestion[compteurQt]} compteur={compteurQt} maxQuestions={arrayQuestion.length} />
+                <Reponses data={arrayQuestion[compteurQt]} validChoice={handleSubmit}/>
+            </Row>
+        )
+    }
 }
 
 /* Quiz.propTypes = {
@@ -67,25 +44,3 @@ const Quiz = () => {
 export default Quiz
 
 
-const Question = (props) => {
-    return (
-        <h1>{props.data}</h1>
-    )
-}
-
-const Reponses = (props) => {
-    return (
-        <div>
-        {props.data.forEach(element => {
-                <Form.Check 
-                    key={element[0]}
-                    value={element[0]}
-                    type='radio'
-                    label={element[1]}
-                    name='reponse'
-                />
-            })
-        }
-        </div>
-    ) 
-}
