@@ -11,24 +11,24 @@ import {Row, Col, Container} from 'react-bootstrap';
 const IndexPage = () => {
  return (
   <Layout>
-      <SEO title="Home" />
+      <SEO title="Accueil" />
         <Row className="align-items-center h-100">
-            <Col className="questions">
-                <Container data-aos="fade-right">
+            <Col xs={12} md={6} className="questions">
+                <Container data-aos="fade-right" className="text-center">
                      <StaticImage
-                        src="../images/undraw_Questions_re_1fy7.svg"
-                        width={300}
-                        quality={95}
-                        formats={["AUTO", "WEBP", "AVIF"]}
+                        src="../images/picture1.png"
+                        width={500}
+                        quality={100}
+                        
                         alt="Quiz picture"
-                        style={{ marginBottom: `1.45rem` }}
+                        style={{ margin: `auto` }}
                       />
                 </Container>
             </Col>
-            <Col className="reponses">
-                <Container data-aos="fade-left">
-                  <h1>Quel Ubi"dreamer" est tu ?</h1>
-                   <Link to="/play" className="btn btn-primary">Commencer le quiz</Link>
+            <Col  xs={12} md={6} className="reponses">
+                <Container data-aos="fade-left" className="p-5">
+                    <h1 className="title-h1">Quel Ubi'dreamer' es-tu ?</h1>
+                   <Link to="/quiz" className="link">Commencer le quiz</Link>
                 </Container>
             </Col>
         </Row>

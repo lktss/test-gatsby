@@ -1,7 +1,20 @@
 
 1.  **`/src/pages`**: les fichiers js contenu dans ce dossier sont automatiquement détectés comme étant des pages et sont accessibles via l'url /{nom_fichier}
+        - index (homepage)
+        - quiz (contient les composants : question/réponse/résultat)
 
 2.  **`/src/component`**: contient les composants reacts
+        - header
+        - layout (+footer)
+        - question 
+        - reponse
+        - resultat
+
+
+
+
+
+_______________________________________
 
 3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 

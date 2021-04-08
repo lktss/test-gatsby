@@ -1,15 +1,56 @@
 {
     "references" : [
         {
-        "Quentin" :  ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A"], 
-        "Damien" :    ["B", "B", "B", "A", "B", "B", "B", "B", "A", "B", "B", "B", "A", "B", "B", "A", "A", "A", "B"],
-        "Ahmed" :     ["A", "B", "C", "B", "B", "A", "A", "B", "B", "C", "C", "C", "A", "A", "A", "B", "B", "A", "A"],
-        "RomainP" :   ["B", "B", "B", "C", "A", "B", "A", "B", "A", "B", "B", "B", "A", "A", "B", "C", "B", "A", "A"],
-        "RomainM" :   ["B", "A", "A", "A", "A", "C", "A", "A", "B", "B", "C", "B", "A", "C", "A", "A", "B", "B", "C"],
-        "Thea" :      ["B", "C", "D", "D", "C", "D", "B", "C", "B", "D", "C", "C", "A", "C", "A", "C", "B", "B", "B"],
-        "Manon" :     ["A", "C", "C", "D", "C", "D", "B", "B", "A", "C", "C", "B", "A", "A", "A", "C", "C", "C", "C"],
-        "Clement" :   ["B", "C", "D", "C", "C", "D", "B", "C", "C", "D", "C", "B", "A", "C", "A", "C", "A", "A", "A"],
-        "Stagiaire" : ["C", "D", "D", "C", "D", "A", "B", "C", "C", "A", "D", "A", "B", "D", "C", "D", "C", "C", "D"]
+        "Quentin" :   ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "B"], 
+        "Damien" :    ["B", "B", "B", "A", "B", "B", "B", "B", "A", "B", "B", "B", "A", "B", "B", "A", "A", "A", "B", "B", "B"],
+        "Ahmed" :     ["A", "B", "C", "B", "B", "A", "A", "B", "B", "C", "C", "C", "A", "A", "A", "B", "B", "A", "A", "A", "B"],
+        "RomainP" :   ["B", "B", "B", "C", "A", "B", "A", "B", "A", "B", "B", "B", "A", "A", "B", "C", "B", "A", "A", "C", "B"],
+        "RomainM" :   ["B", "A", "A", "A", "A", "C", "A", "A", "B", "B", "C", "B", "A", "C", "A", "A", "B", "B", "C", "A", "B"],
+        "Thea" :      ["B", "C", "D", "D", "C", "D", "B", "C", "B", "D", "C", "C", "A", "C", "A", "C", "B", "B", "B", "C", "B"],
+        "Manon" :     ["A", "C", "C", "D", "C", "D", "B", "B", "A", "C", "C", "B", "A", "A", "A", "C", "C", "C", "C", "B", "B"],
+        "Clement" :   ["B", "C", "D", "C", "C", "D", "B", "C", "C", "D", "C", "B", "A", "C", "A", "C", "A", "A", "A", "C", "B"],
+        "Stagiaire" : ["C", "D", "D", "C", "D", "A", "B", "C", "C", "A", "D", "A", "B", "D", "C", "D", "C", "C", "D", "B", "A"]
+        }
+    ],
+    "resultats" : [
+        {
+            "Quentin" :     [
+                "Tu aimes râler autant que écraser les chats. Après avoir fini le catalogue de Netflix tu vas devoir te rabattre sur PrimeVideo, mais malgré tout c'est grâce à toi qu'on paye le loyer.",
+                "Tu rêves d'être stagiaire mais tu ne veux juste pas l'admettre. Depuis que tu es dans ta serre, tu rêves des grands espaces de l'openspace, n'aies pas peur d'avouer que les stagiaires sont cools et que tu veux les rejoindre."
+            ],
+            "Damien" :      [
+                "Tu adores discuter et tu es le papa des stagiaires. Dès qu'on a une question c'est pour toi, à tel point que tu évites de croiser notre regard !",
+                "Tu as un compte sur chaque site de blind test qui traîne,  mais, malgré cette passion dévorante, tu n'arrives toujours pas à écrire vite."
+            ],
+            "Ahmed" :       [
+                "Plûtot discret, force tranquille, tu réponds à toutes nos questions pour la modique somme de 50€.",
+                "Faussement calme, il suffit d'un truc qui ne marche pas pour te faire basculer du côté obscur de la force. Ne luttes pas, rejoins-nous petit padawan."
+            
+            ],
+            "RomainP" :     [
+                "Peu importe où tu es tu regardes le match, le récap du match, l'interview, la rediffusion et le récap du tout... et si on perd tu en rêves pendant 3 ans !",
+                "Tu connais les répliques de film ou de sketch comme personne ici, à tel point que tu ne sais pas te stopper. Au final, ça déborde autant que la nourriture dans ton assiette."
+            ],
+            "RomainM" :     [
+                "Chef au salaire de stagiaire, seul l'espoir te fais lever chaque matin. Mais bon tout le monde t'aime (ça compense ?)",
+                "Tellement sentimental, que tu te sens obligé de faire dans le social avec les stagiaires. Du coup, tu noies ton chagrin dans la bouteille de Ricard. Apéro ?"
+            ],
+            "Thea" :        [
+                "Talentueuse, douce, discrète mais par contre les commandes Chez Gaspard maintenant on s'en occupe... ",
+                "Avec toi on a compris pas la peine de lutter #friendsForever. Ton surnom pourrait bien être le Colibri : entourée de plante, toujours à manger par petites bouchées, tu apparais et disparais plus vite que la lumière."
+            ],
+            "Manon" :       [
+                "Toujours de bonne humeur, toujours une anecdote à raconter, rendez-vous à 10h30 pour le café !",
+                "Toujours attirée par les bavardages des stagiaires,  tu n'aimes pas être à demi-séparée de l'openspace. Finalement tu es tellement proche des gens que tu finis par être cas contact."
+            ],
+            "Clement" :     [
+                "Plutôt casanier pourtant quand tu es là on t'entend ! Tu as bien ta place avec les piplettes de l'openspace.",
+                "Tu es sociable, créatif, et expert dans ton domaine... en fait tu es un stagiaire avec une vraie paye. "
+            ],
+            "Stagiaire" :   [
+                "Maître de l'openspace, Grand Seigneur des Piplettes, Khaleesi des pauses café...Tu fonctionnes à la photosynthèse et aux petites pauses de 40 min. Tu es génial, tu as peut-être peu de considération mais de multiples casquettes d'experts.",
+                "Comme les stagiaires, tu as vu de la lumière et tu es entré et finalement tu aurais été bien mieux dehors, naïf que tu es !"
+            ]     
         }
     ],
     "questions" : [
@@ -27,7 +68,7 @@
                 {"A" : "Ne m'en parle pas"},	
                 {"B" : "Connais pas"},
                 {"C" : "J'ai quelques notions"},
-                {"D" : "ça dépend"}
+                {"D" : "Ça dépend..."}
             ]
         },
         {
@@ -43,56 +84,56 @@
             "question" : "Tu es plutôt ... ?",
             "reponses" : [
                 {"A" : "Front"},	
-                {"B" : "back"},	
-                {"C" : "on sait toujours pas"},	
-                {"D" : "design"}
+                {"B" : "Back"},	
+                {"C" : "On ne sait toujours pas"},	
+                {"D" : "Design"}
             ]
         },
         {
-            "question" : "qu'est ce que tu bois ?",
+            "question" : "Dis moi ce que tu bois et je te dirai qui tu es...",
             "reponses" : [
-                {"A" : "ricard"},	
-                {"B" : "bière"}	,
-                {"C" : "mojito"},	
-                {"D" : "jäger"}
+                {"A" : "Ricard"},	
+                {"B" : "Bière"}	,
+                {"C" : "Mojito"},	
+                {"D" : "Jäger"}
             ]
         },
         {
-            "question": "ton niveau blind test ?",
+            "question": "Quel est ton niveau blind test ?",
             "reponses" : [
-                {"A" : "bof"},	
-                {"B" : "10/10"},	
-                {"C" : "les truc de vieux c'est 10/10"},	
-                {"D" : "je suis en régie"}
+                {"A" : "Bof, proche de zéro..."},	
+                {"B" : "10/10, je suis un génie"},	
+                {"C" : "Les trucs de vieux c'est 10/10"},	
+                {"D" : "De quel blind test vous parlez ?"}
             ]
         },
         {
-            "question": "team bureau ou team openspace ?", 
+            "question": "Team bureau ou Team openspace ?", 
             "reponses": [
-                {"A" : "b"},	
-                {"B" : "op"}
+                {"A" : "Bureau, je suis le chef"},	
+                {"B" : "Openspace avec les copains !"}
             ]	
         }, 
         {
             "question": "Dis moi ce que tu manges et je te dirais qui tu es ...",
             "reponses" : [
-                {"A" : "Chat"},	
+                {"A" : "Un chat écrasé nickel"},	
                 {"B" : "Un bon burger frites"},	
                 {"C" : "Rien ne vaut le soja"}
             ]
         }, 
         {
-            "question": "Qu'elle est ta tranche d'âge ?",
+            "question": "Quelle est ta tranche d'âge ?",
             "reponses" : [
-                {"A" : "25-28 ans"},	
+                {"A" : "25-28 ans, la fleur de l'âge"},	
                 {"B" : "On ne compte plus au delà de 28"},	
-                {"C" : "On ne compte pas"}
+                {"C" : "On ne compte pas en dessous de 25"}
             ]
         },
         {
             "question": "A quelle maison Harry Potter appartiens-tu ?",
             "reponses" : [
-                {"A" : "Je n'ai pas reçu la lettre"},	
+                {"A" : "Je n'ai pas reçu la lettre..."},	
                 {"B" : "Gryffondor"},	
                 {"C" : "Serdaigle"},	
                 {"D" : "Poufsouffle"}
@@ -101,18 +142,18 @@
         {
             "question": "Dans quelle voiture roules-tu ?",
             "reponses" : [
-                {"A" : "Tesla"},	
+                {"A" : "Tesla mais je n'ai plus de piles..."},	
                 {"B" : "Une voiture familiale"},	
                 {"C" : "Une citadine"},	
-                {"D" : "Pas de sous je dors sur place"}
+                {"D" : "Pas de sous, je dors sur place"}
             ]
         },
         {
-            "question": "Est-tu censuré sur discord ?",
+            "question": "Es-tu censuré sur discord ?",
             "reponses" : [
                 {"A" : "Oui"},	
                 {"B" : "Non"},	
-                {"C" : "Je censure les gens"}
+                {"C" : "Je censure les gens \"I'm the god\""}
             ]
         },
         {
@@ -126,7 +167,7 @@
             "question": "Tu commandes plutôt ?",
             "reponses" : [
                 {"A" : "Awa"},	
-                {"B" : "Tacos"},	
+                {"B" : "O'Tacos"},	
                 {"C" : "Chez Gaspard"},	
                 {"D" : "Pas d'argent, je me fais à manger"}
             ]
@@ -140,7 +181,7 @@
             ]
         },
         {
-            "question": "Team vaisselle ou team délit de fuite ?",
+            "question": "Team vaisselle ou Team délit de fuite ?",
             "reponses" : [
                 {"A" : "Vaisselle"},	
                 {"B" : "Je me suis fais avoir"},	
@@ -153,27 +194,42 @@
             "reponses" : [
                 {"A" : "Jamais il ne me le propose"},	
                 {"B" : "Tu fuis"},	
-                {"C" : "Tu es naïf et tu dis oui, te voilà expert en com'"}
+                {"C" : "Tu es naïf et tu dis oui, te voilà expert !"}
             ]
         },
         {
             "question": "Depuis combien de temps es-tu chez ubi ?",
             "reponses" : [
                 {"A" : "2 ans et plus"},	
-                {"B" : "Une éternité"},	
+                {"B" : "Une éternité bientôt la médaille !"},	
                 {"C" : "J'ai juste vu de la lumière et je suis entré"}
             ]
         },
         {
-            "question": "On a du budget tu achètes ?",
+            "question": "Imaginons on a du budget, tu achètes ?",
             "reponses" : [
-                {"A" : "Casque"},	
+                {"A" : "Un casque"},	
                 {"B" : "Un micro onde"},	
                 {"C" : "Une cafetière"},	
                 {"D" : "Je propose de voler le matos à Systel pour faire des économies"}
+            ]
+        },
+        {
+            "question": "Les stagiaires tu les aimes ... ?",
+            "reponses" : [
+                {"A" : "Loin de moi"},	
+                {"B" : "C'est les copains"},	
+                {"C" : "Tant qu'ils font la vaisselle ça me va !"}
+            ]
+        },
+        {
+            "question": "Tu vaux combien ?",
+            "reponses" : [
+                {"A" : "3,90€/h"},	
+                {"B" : "Je suis la poule aux oeufs d'or mais j'attends toujours mon chèque"}	
             ]
         }
 
     ]
     
-} 		 		
+} 		 

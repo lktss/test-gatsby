@@ -1,13 +1,13 @@
 import React from "react";
-//import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
-import {Col, Container, Form} from 'react-bootstrap';
+import {Col, Container} from 'react-bootstrap';
 
 const Reponses = (props) => {
     return(
      
-        <Col className="reponses">
-            <Container>
+        <Col xs={12} md={6} className="reponses">
+            <Container className="px-5">
                 {/* Réponses */}
                 {props.data.reponses.map((element, index) => (
                     <div key={index}>
@@ -20,28 +20,34 @@ const Reponses = (props) => {
     )
 }
 
-/* Quiz.propTypes = {
-  arrayQuestion: PropTypes.array.isRequired,
-} */
+Reponses.propTypes = {
+    validChoice: PropTypes.func.isRequired,
+    data : PropTypes.object.isRequired
+} 
 
 export default Reponses
 
-
+/* ************************ */
 
 const Reponse = (props) => {
     for ( const property in props.data){
         return (
-            <div>
-                <Form.Check 
+            <div className="m-3" >
+                <button 
+                    className="btn"
                     key={property}
                     value={property}
-                    type='radio'
-                    label={props.data[property]}
-                    name='reponse'
                     onClick={props.onChange}
-                />
+                >
+                    {props.data[property]}
+                </button>
             </div>
         ) 
     }
     
 }
+
+Reponse.propTypes = {
+    onChange : PropTypes.func.isRequired,
+    data : PropTypes.object.isRequired
+} 
