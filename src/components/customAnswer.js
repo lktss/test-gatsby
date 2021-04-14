@@ -37,8 +37,8 @@ export const Correction = (props) => {
                     <Card body>
                         <Card.Title>{question.question}</Card.Title>
                         <Card.Text>
-                            {question.reponses.map(reponse => (
-                                <CorrectRep repUser={props.rep[index]} repJuste={props.data.references[index]} reponses={reponse}/>
+                            {question.reponses.map((reponse, id) => (
+                                <CorrectRep key={id} repUser={props.rep[index]} repJuste={props.data.references[index]} reponses={reponse}/>
                             ))}
                         </Card.Text>
                     </Card>

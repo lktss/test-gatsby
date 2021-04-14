@@ -6,19 +6,19 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Question from "../components/question.js"
 import Reponses from "../components/reponse.js"
-import Resultat from "../components/resultat.js"
+import ResultatRgpd from "../components/resultRgpd.js"
 
 //import des données
-import jsonData from "../content.json"
+import rgpdData from "../rgpd.json"
 
 //import composants bootstrap
 import {Row} from 'react-bootstrap';
 
 
-const Game = () => {
-
+const Rgpd = () => {
+    
     //récupération des données json
-    const arrayQuestion = jsonData.questions
+    const arrayQuestion = rgpdData.questions;
     //mise en place d'un état des composants via les hooks (compteur des questions, historique de réponse)
     const [compteurQt, setcompteurQt] = useState(0);
     const [history, setHistory] = useState([]);
@@ -32,18 +32,19 @@ const Game = () => {
 
     //Si j'arrive à la dernière question alors j'affiche les résultats
     if(compteurQt === arrayQuestion.length){
+       
         return(
             <Layout>
-                <SEO title="Résultats" />
-                <Resultat data={history} json={jsonData}/>
+                <SEO title="Ton niveau RGPD" />
+                <ResultatRgpd data={history} json={rgpdData}/>
             </Layout>
-        )  
+        )    
         
     }else{
         //sinon je continu l'affichage des questions
         return(
             <Layout>
-                <SEO title="Quiz" />
+                <SEO title="Quiz-Rgpd" />
                 <Row className="align-items-center rowQuiz">
                     <Question data={arrayQuestion[compteurQt]} compteur={compteurQt} maxQuestions={arrayQuestion.length} />
                     <Reponses data={arrayQuestion[compteurQt]} validChoice={handleSubmit}/>
@@ -54,4 +55,4 @@ const Game = () => {
 }
 
 
-export default Game
+export default Rgpd
