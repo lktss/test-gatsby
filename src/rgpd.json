@@ -30,7 +30,7 @@
         {
             "question" : "Qui veille au respect du RGPD",
             "reponses" : [
-                {"A" : "La DGCCRF"},	
+                {"A" : "La Direction générale de la Concurrence, de la Consommation et de la Répression des fraudes"},	
                 {"B" : "La CNIL"},	
                 {"C" : "Le Ministère de l’Intérieur"}
             ]
@@ -84,7 +84,7 @@
             ]
         },
         {
-            "question": "Comme exemple de mesure de sécurité technique des données personnelles ",
+            "question": "Choisissez un exemple de mesure de sécurité technique des données personnelles :",
             "reponses" : [
                 {"A" : "Une politique de confidentialité"},	
                 {"B" : "Réaliser une pseudonymisation, anonymisation, …"},	
@@ -124,7 +124,7 @@
             ]
         },
         {
-            "question": "Qui est le responsable de la mise en conformité RGPD chez UBIDREAMS ?",
+            "question": "Qui est pénalement responsable de la mise en conformité RGPD chez UBIDREAMS ?",
             "reponses" : [
                 {"A" : "Le lead dev "},	
                 {"B" : "Le DPO"},	
