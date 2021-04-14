@@ -59,3 +59,21 @@ h1 span {
     background: linear-gradient(90deg, rgba(0,194,203,1) 0%, rgba(255,222,89,1) 100%);
 }
 
+.card{
+    min-height: 320px;
+    margin: 1em;
+    font-size: 0.9rem;
+}
+
+.card-title{
+    font-size: 1rem;
+}
+
+.true{
+    color: green;
+    font-weight: bold;
+}
+
+.false{
+    color: red;
+}

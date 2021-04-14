@@ -1,4 +1,5 @@
 import React, { useState} from "react";
+import PropTypes from "prop-types";
 
 //import des composants 
 import Layout from "../components/layout"
@@ -6,17 +7,21 @@ import SEO from "../components/seo"
 import Question from "../components/question.js"
 import Reponses from "../components/reponse.js"
 import Resultat from "../components/resultat.js"
+import ResultatRgpd from "../components/resultRgpd.js"
 
 //import des données
 import jsonData from "../content.json"
+import rgpdData from "../rgpd.json"
 
 //import composants bootstrap
 import {Row} from 'react-bootstrap';
 
 
-const Game = () => {
+
+const Game = ({location}) => {
     //récupération des données json
-    const arrayQuestion = jsonData.questions;
+    const arrayQuestion = location.state.id === 1 ? rgpdData.questions : jsonData.questions
+    
     //mise en place d'un état des composants via les hooks (compteur des questions, historique de réponse)
     const [compteurQt, setcompteurQt] = useState(0);
     const [history, setHistory] = useState([]);
@@ -30,12 +35,22 @@ const Game = () => {
 
     //Si j'arrive à la dernière question alors j'affiche les résultats
     if(compteurQt === arrayQuestion.length){
-        return(
-            <Layout>
-                <SEO title="Résultats" />
-                <Resultat data={history}/>
-            </Layout>
-        )  
+        if(location.state.id === 1){
+            return(
+                <Layout>
+                    <SEO title="Résultats" />
+                    <ResultatRgpd data={history} json={rgpdData}/>
+                </Layout>
+            )  
+        }else{
+            return(
+                <Layout>
+                    <SEO title="Résultats" />
+                    <Resultat data={history} json={jsonData}/>
+                </Layout>
+            )  
+        }
+        
     }else{
         //sinon je continu l'affichage des questions
         return(
@@ -50,5 +65,8 @@ const Game = () => {
     }
 }
 
+Game.propTypes = {
+    location: PropTypes.number.isRequired
+} 
 
 export default Game

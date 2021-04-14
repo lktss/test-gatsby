@@ -1,0 +1,137 @@
+{
+    "references" : [
+        "C", "A", "C", "B", "B", "A", "B", "B", "B", "C", "B", "A", "B", "C", "C", "C"
+    ],
+    "questions" : [
+        {
+            "question" : "RGPD veut dire ?",
+            "reponses" : [
+                {"A" : "Réglementation Générale sur la Protection des Données"},
+                {"B" : "Régulation Générale de la Protection des Données"}, 
+                {"C" : "Règlement Général sur la Protection des Données"}
+            ]
+        },
+        {
+            "question" : "En quelle année a été adopté le RGPD", 
+            "reponses" : [
+                {"A" : "2016"},	
+                {"B" : "2017"},
+                {"C" : "2018"}
+            ]
+        },
+        {
+            "question" : "En quelle année est entré en vigueur le RGPD", 
+            "reponses" : [
+                {"A" : "2016"},	
+                {"B" : "2017"},
+                {"C" : "2018"}
+            ]
+        },
+        {
+            "question" : "Qui veille au respect du RGPD",
+            "reponses" : [
+                {"A" : "La DGCCRF"},	
+                {"B" : "La CNIL"},	
+                {"C" : "Le Ministère de l’Intérieur"}
+            ]
+        },
+        {
+            "question" : "Le RGPD est un texte",
+            "reponses" : [
+                {"A" : "Français"},	
+                {"B" : "Européen "}	,
+                {"C" : "Uniquement entre l’Europe et les USA"}
+            ]
+        },
+        {
+            "question": "Le Responsable de Traitement traite des données personnelles",
+            "reponses" : [
+                {"A" : "Pour lui-même"},	
+                {"B" : "Pour le compte de quelqu’un d’autre"},	
+                {"C" : "Pour la CNIL"}
+            ]
+        },
+        {
+            "question": "Le Sous-Traitant traite des données personnelles", 
+            "reponses": [
+                {"A" : "Pour lui-même"},	
+                {"B" : "Pour le compte de quelqu’un d’autre"},
+                {"C" : "Pour la CNIL"}
+            ]	
+        }, 
+        {
+            "question": "Une donnée sensible doit",
+            "reponses" : [
+                {"A" : "Être traitée comme une autre"},	
+                {"B" : "Etre traitée avec des mesures particulières"},	
+                {"C" : "Ne doit pas être traitée "}
+            ]
+        }, 
+        {
+            "question": "Lors du développement d’une solution, le fait d’assurer la sécurité des données dès la conception se nomme",
+            "reponses" : [
+                {"A" : "Le concept de privacy by default"},	
+                {"B" : "Le concept de privacy by design"},	
+                {"C" : "Accountability"}
+            ]
+        },
+        {
+            "question": "La plus haute sanction pécuniaire pour non conformité du RGPD est ",
+            "reponses" : [
+                {"A" : "2% du CA (HT) annuel de l’entreprise ou 10 000 000 €"},	
+                {"B" : "Selon le seuil relatif au nombre de salarié dans l’entreprise"},	
+                {"C" : "4% du CA (HT) annuel de l’entreprise ou 20 000 000 €"}
+            ]
+        },
+        {
+            "question": "Comme exemple de mesure de sécurité technique des données personnelles ",
+            "reponses" : [
+                {"A" : "Une politique de confidentialité"},	
+                {"B" : "Réaliser une pseudonymisation, anonymisation, …"},	
+                {"C" : "Les deux mesures"}
+            ]
+        },
+        {
+            "question": "L’ancêtre du DPO est ",
+            "reponses" : [
+                {"A" : "Le CIL"},	
+                {"B" : "C’était déjà le DPO"},
+                {"C" : "Il n’y en avait pas"}
+            ]
+        },
+        {
+            "question": "Concernant le bandeau de consentement aux cookies, le mieux est de ",
+            "reponses" : [
+                {"A" : "Ne pas mettre de cookies du tout"},	
+                {"B" : "Présenter les cookies selon leurs finalités"},	
+                {"C" : "Présenter les cookies selon leurs noms"}
+            ]
+        },
+        {
+            "question": "La sécurité des données doit être assurée ",
+            "reponses" : [
+                {"A" : "A la création de la conception"},	
+                {"B" : "Aux mises à jour"},	
+                {"C" : "Les deux"}
+            ]
+        },
+        {
+            "question": "L’exercice du droit des personnes doit être assuré ",
+            "reponses" : [
+                {"A" : "Quand on nous le demande"},	
+                {"B" : "En tant que développeur, on ne doit rien mettre en place, c’est le DPO qui s’en charge"},	
+                {"C" : "Aucunes des propositions"}
+            ]
+        },
+        {
+            "question": "Qui est le responsable de la mise en conformité RGPD chez UBIDREAMS ?",
+            "reponses" : [
+                {"A" : "Le lead dev "},	
+                {"B" : "Le DPO"},	
+                {"C" : "Le DG"}
+            ]
+        }
+
+    ]
+    
+} 		 
