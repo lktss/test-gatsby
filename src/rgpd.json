@@ -110,7 +110,7 @@
         {
             "question": "La sécurité des données doit être assurée ",
             "reponses" : [
-                {"A" : "A la création de la conception"},	
+                {"A" : "A la conception de la solution"},	
                 {"B" : "Aux mises à jour"},	
                 {"C" : "Les deux"}
             ]

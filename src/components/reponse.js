@@ -34,7 +34,7 @@ const Reponse = (props) => {
         return (
             <div className="m-3" >
                 <button 
-                    className="btn"
+                    className="btn text-left"
                     key={property}
                     value={property}
                     onClick={props.onChange}
