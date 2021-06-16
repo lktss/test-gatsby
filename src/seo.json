@@ -1,6 +1,6 @@
 {
     "references" : [
-        "A", "B", "A", "C", "D", "A", "B"
+        "A", "B", "A", "C", "D", "A", "B", "C", "A", "B"
     ],
     "questions" : [
         {
@@ -52,7 +52,7 @@
             ]
         }, 
         {
-            "question": "Travailler [...] permet de faciliter le travail du googlebot",
+            "question": "Travailler [...] permet de faciliter le travail du Googlebot",
             "reponses" : [
                 {"A" : "Le choix des couleurs"},	
                 {"B" : "La structure du contenu"},	
