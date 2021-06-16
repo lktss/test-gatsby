@@ -4,7 +4,7 @@
     ],
     "questions" : [
         {
-            "question" : "Maintenant que vous connaissez Loriane et qu’elle vous fait clairement peur est-ce que vous laisseriez ceci écrit sur le site : Introduction à la RGPD ?", 
+            "question" : "Maintenant que tu connais Loriane et qu’elle te fait clairement peur, est-ce que tu laisserais ceci écrit sur le site : Introduction à la RGPD ?", 
             "reponses" : [
                 {"A" : "Non pas envie d’être frappé"},	
                 {"B" : "La RG… quoi ? "},
@@ -81,7 +81,7 @@
             "reponses" : [
                 {"A" : "Gruger le GoogleBot"},	
                 {"B" : "Réaliser le suivi et l'analyse du référencement de mon site"},	
-                {"C" : "La réponse A"}
+                {"C" : "La réponse B"}
             ]
         }
     ]
