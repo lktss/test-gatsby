@@ -30,7 +30,7 @@
         {
             "question": "Le GoogleBot est ...",
             "reponses" : [
-                {"A" : "L'algorithme derrière le moteur de recherche Google"},	
+                {"A" : "Un algorithme comme Google Panda ou Google Pengouin"},	
                 {"B" : "Le modérateur Google"},	
                 {"C" : "Le robot d'indexation de Google"}
             ]
@@ -81,7 +81,7 @@
             "reponses" : [
                 {"A" : "Gruger le GoogleBot"},	
                 {"B" : "Réaliser le suivi et l'analyse du référencement de mon site"},	
-                {"C" : "La réponse B"}
+                {"B" : "La réponse B"}
             ]
         }
     ]
