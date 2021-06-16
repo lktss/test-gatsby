@@ -1,0 +1,65 @@
+{
+    "references" : [
+        "A", "B", "A", "C", "D", "A", "B"
+    ],
+    "questions" : [
+        {
+            "question" : "Maintenant que vous connaissez Loriane et qu’elle vous fait clairement peur est-ce que vous laisseriez ceci écrit sur le site : Introduction à la RGPD ?", 
+            "reponses" : [
+                {"A" : "Non pas envie d’être frappé"},	
+                {"B" : "La RG… quoi ? "},
+                {"C" : "Oui je ne vois pas où est le problème"}
+            ]
+        },
+        {
+            "question" : "Le temps de chargement du site peut être influencé par :",
+            "reponses" : [
+                {"A" : "Le nombre de liens internes"},	
+                {"B" : "Les images qu’il contient"},	
+                {"C" : "La longueur des textes"},
+                {"D" : "Les politiques de confidentialités"}
+            ]
+        },
+        {
+            "question" : "Limiter les liens vers des sites externes est une bonne chose.",
+            "reponses" : [
+                {"A" : "Vrai"},	
+                {"B" : "Faux"}
+            ]
+        },
+        {
+            "question": "Le GoogleBot est ...",
+            "reponses" : [
+                {"A" : "L'algorithme derrière le moteur de recherche Google"},	
+                {"B" : "Le modérateur Google"},	
+                {"C" : "Le robot d'indexation de Google"}
+            ]
+        },
+        {
+            "question": "Le GoogleBot va ...", 
+            "reponses": [
+                {"A" : "Faire de l’exploration"},	
+                {"B" : "Faire de l’indexation"},
+                {"C" : "Avoir une perception identique à celle d’un vrai utilisateur"},
+                {"D" : "Les 3 réponses précédentes sont exactes"}
+            ]	
+        }, 
+        {
+            "question": "Le responsive design est lié aux éléments techniques du site :",
+            "reponses" : [
+                {"A" : "Vrai"},	
+                {"B" : "Faux"}
+            ]
+        }, 
+        {
+            "question": "Travailler [...] permet de faciliter le travail du googlebot",
+            "reponses" : [
+                {"A" : "Le choix des couleurs"},	
+                {"B" : "La structure du contenu"},	
+                {"C" : "Avec des éléments cachés"},
+                {"D" : "Aucune de ces réponses"}
+            ]
+        }
+    ]
+    
+} 		 

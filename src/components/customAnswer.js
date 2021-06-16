@@ -7,7 +7,7 @@ export const Score = (props) => {
     var text;
     switch(true) {
         case (resultat <= 25):
-          text ='Seul conseil, prépares tes économies ! Le RGPD va te coûter cher ...';
+          text ='Je pouvais pas faire plus simple...';
           break;
         case (resultat <= 50):
           text = 'L\'espoir fait vivre non ?';
@@ -16,7 +16,7 @@ export const Score = (props) => {
           text = 'Tu es sur la bonne voie, jeune Padawan !';
           break;
         default:
-          text = 'Un nouvel expert RGPD est dans la place !';
+          text = 'Un nouvel expert SEO est dans la place !';
           break;
     };
 

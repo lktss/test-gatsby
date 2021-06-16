@@ -27,12 +27,15 @@ const IndexPage = () => {
             </Col>
             <Col  xs={12} md={6} className="reponses">
                 <Container data-aos="fade-left" className="p-5">
-                    <Link to="/rgpd"  className="link">
+                   {/*  <Link to="/rgpd"  className="link">
                         <h3>Es-tu RGPD friendly ?</h3>
                     </Link>
                    <Link to="/quiz"  className="link">
                        <h3>Quel Ubi'dreamer' es-tu ?</h3>
-                       </Link>
+                    </Link> */}
+                    <Link to="/seo"  className="link">
+                       <h3>As tu bien écouté Estelle ?</h3>
+                    </Link>
                 </Container>
             </Col>
         </Row>

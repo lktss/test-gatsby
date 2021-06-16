@@ -23,7 +23,7 @@ const ResultatRgpd = (props) => {
             <Col xs={12} md={6}>
                 <Container className="text-center">
                     <StaticImage
-                        src="../images/rgpd.png"
+                        src="../images/Illustration.png"
                         width={500}
                         quality={100}
                         
