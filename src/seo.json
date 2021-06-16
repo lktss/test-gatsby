@@ -59,6 +59,30 @@
                 {"C" : "Avec des éléments cachés"},
                 {"D" : "Aucune de ces réponses"}
             ]
+        }, 
+        {
+            "question": "Si je répète plusieurs fois le même mot afin d’augmenter le nombre d'occurrence, j’ai plus de chance de voir mon site apparaître en première page.",
+            "reponses" : [
+                {"A" : "Seulement si le mot apparaît dans des balises <Title>"},	
+                {"B" : "Oui, plus il y a d’occurrences plus mon site va apparaître comme pertinent"},	
+                {"C" : "Non, il vaut mieux contextualiser le mot et élargir le champ lexical"}
+            ]
+        }, 
+        {
+            "question": "L’audit sémantique est : ",
+            "reponses" : [
+                {"A" : "Le processus visant à établir les mots clés liés à l’activité de mon site web"},	
+                {"B" : "L’intervention d’un expert SEO pour établir une stratégie de référencement"},	
+                {"C" : "Audit ou Audi ?"}
+            ]
+        }, 
+        {
+            "question": "A quoi sert Google Analytics ?",
+            "reponses" : [
+                {"A" : "Gruger le GoogleBot"},	
+                {"B" : "Réaliser le suivi et l'analyse du référencement de mon site"},	
+                {"C" : "La réponse A"}
+            ]
         }
     ]
     
