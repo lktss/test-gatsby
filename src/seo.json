@@ -81,7 +81,7 @@
             "reponses" : [
                 {"A" : "Gruger le GoogleBot"},	
                 {"B" : "Réaliser le suivi et l'analyse du référencement de mon site"},	
-                {"B" : "La réponse B"}
+                {"C" : "La réponse B"}
             ]
         }
     ]
